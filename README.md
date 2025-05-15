@@ -23,3 +23,21 @@ This is part of my personal toolkit to build hands-on skills while preparing for
 ---
 
 **More scripts coming soon.**
+---
+
+## Script: IP Blacklist Filter
+
+**File:** `ip_blacklist_filter.py`
+
+This script scans a system log file and tracks failed login attempts by IP address.  
+If any IP fails to log in 3 or more times, it is flagged as suspicious.
+
+### What it shows:
+- Use of dictionaries for counting
+- Log parsing and string operations
+- Threshold logic for detection
+- Real-world application for brute-force or intrusion attempts
+
+### Why I built it:
+To practice log analysis and IP tracking—key tasks in SOC and analyst roles.  
+This builds on my first parser and strengthens my understanding of automation and threat detection.
